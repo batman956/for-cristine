@@ -86,7 +86,7 @@ const handleMouseUp = () => {
 };
 
 (function () {
-  emailjs.init("Gab29OES9fs0AXitx"); // Your EmailJS User ID
+  // emailjs.init("Gab29OES9fs0AXitx"); // Your EmailJS User ID
 })();
 
 function sendRomanticEmail(response) {
