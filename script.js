@@ -104,7 +104,7 @@ function sendRomanticEmail(response) {
 
   const templateParams = {
     to_name: "Sudais Khan", // Your name
-    from_name: "Cristine", // Her name (adjust if needed)
+    from_name: "Tiaa", // Her name (adjust if needed)
     message: response, // Final message
   };
 
