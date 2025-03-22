@@ -86,7 +86,7 @@ const handleMouseUp = () => {
 };
 
 (function () {
-  // emailjs.init("Gab29OES9fs0AXitx"); // Your EmailJS User ID
+  emailjs.init("Gab29OES9fs0AXitx");
 })();
 
 function sendRomanticEmail(response) {
@@ -103,9 +103,9 @@ function sendRomanticEmail(response) {
   }
 
   const templateParams = {
-    to_name: "Sudais Khan", // Your name
-    from_name: "Tiaa", // Her name (adjust if needed)
-    message: response, // Final message
+    to_name: "Sudais Khan",
+    from_name: "Marie",
+    message: response,
   };
 
   emailjs.send("service_yj5nxik", "template_nhlkhgb", templateParams).then(
